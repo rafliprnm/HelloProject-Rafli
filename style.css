@@ -1,0 +1,66 @@
+body {
+    background-color: #ecf0f1;
+    background-image: url("telulogo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 10%;
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0px;
+
+
+}
+.navbar{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.navbar:hover{
+    color: red;
+}
+
+.navbar:active{
+    color: white;
+}
+
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.textpendek {
+    font-weight: bold;
+}
+
+.textpanjang {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+}
+
+input:focus, textarea:focus {
+    background: #2ecc71 ;
+}
